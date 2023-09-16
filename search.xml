@@ -27,7 +27,7 @@
       
         <tags>
             
-            <tag> source </tag>
+            <tag> 资源 </tag>
             
         </tags>
       
@@ -36,17 +36,17 @@
     
     
     <entry>
-      <title>reading</title>
+      <title>编程</title>
       <link href="/2023/02/11/reading/"/>
       <url>/2023/02/11/reading/</url>
       
-        <content type="html"><![CDATA[<p>something is terrible<br>reading can make some people feel happy</p>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://pixabay.com/">图片素材</a></p><p><a href="https://www.ittel.cn/archives/4976.html">直播源</a></p><p><a href="https://github.com/theme-kaze/hexo-theme-kaze/blob/master/README_zh.md">简洁Hexo主题</a></p><p><a href="https://www.bilibili.com/read/cv21947207/">office 2019</a></p><p><a href="https://cplusplus.com/reference/unordered_set/unordered_set/insert/">cplusplus</a></p><p><a href="https://subingwen.cn/cplusplus/">爱编程的大丙</a></p><p><a href="https://edu.subingwen.cn/page/1428679?navIndex=0">大炳课程</a></p><p><a href="https://www.interviewbit.com/blog/cpp-projects/">C++项目</a></p><p><a href="https://www.tutorialspoint.com/cplusplus/index.htm">语言入门学习大全</a></p><p><a href="https://linux265.com/news/1704.html#list10">Ubuntu常用软件列表推荐</a></p><p><a href="https://ubunlog.com/en/category/Desktops/">ubuntu桌面</a></p><p><a href="https://docs.github.com/en">github docs</a></p><p><a href="https://rpm-packaging-guide.github.io/">RPM package guide</a></p><p><a href="https://ejs.bootcss.com/#install">ejs–嵌入式 JavaScript 模板引擎</a></p><p><a href="https://blog.csdn.net/Sky_True/article/details/104455322">hexo部署到centos远程服务器</a></p>]]></content>
       
       
       
         <tags>
             
-            <tag> learning </tag>
+            <tag> 实用网址 </tag>
             
         </tags>
       
