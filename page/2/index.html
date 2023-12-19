@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Tag: 方向, Time is power">
+    <meta name="keywords" content="Time is power">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Tag: 方向 | Time is power</title>
+    <title>Time is power</title>
     <link rel="icon" type="image/png" href="/bird.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -169,6 +169,7 @@
 
 </header>
 
+    
     <div class="bg-cover pd-header about-cover">
     <div class="container">
     <div class="row">
@@ -211,98 +212,83 @@
     </div>
 </div>
 
+
 <main class="content">
 
+	
+		 <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
     
-
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;Post Tags
-            </div>
-            <div class="tag-chips">
-                
-                
-                <a href="/tags/%E5%AD%A6%E4%B9%A0/" title="学习: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="学习" style="background-color: #F9EBEA;">学习
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%88%90%E9%95%BF/" title="成长: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="成长" style="background-color: #F5EEF8;">成长
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E7%94%9F%E6%B4%BB/" title="生活: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="生活" style="background-color: #D5F5E3;">生活
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E8%B5%84%E6%BA%90/" title="资源: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="资源" style="background-color: #E8F8F5;">资源
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E4%BA%BA%E7%94%9F/" title="人生: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="人生" style="background-color: #FEF9E7;">人生
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%96%B9%E5%90%91/" title="方向: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="方向" style="background-color: #F8F9F9;">方向
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-            </div>
-        </div>
+    <div class="title center-align">
+        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;发现美，记录美
     </div>
+    
+    <!-- <div class="row"> -->
+        <!-- <div class="col l8 offset-l2 m10 offset-m1 s12">
+         -->
+            <div id="dplayer" class="dplayer-video"
+                     style="width: 100%; display: block; margin: auto;"></div>
+        <!-- </div> height: 800px;-->
+    <!-- </div> -->
 </div>
 
-    
+<script src="/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'true' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'en' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: 'https://2022photo.obs.cn-east-3.myhuaweicloud.com/videos/caution.mp4',
+                pic: '',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
 
+	
+    
+    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row tags-posts">
+        <div class="row article-row">
             
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="方向" data-aos="fade-up">
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/10/19/road/">
-                        <div class="card-image tag-image">
+                    <a href="/2023/02/11/git/">
+                        <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="road">
+                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="git">
                             
-                            <span class="card-title">road</span>
+                            <span class="card-title">git</span>
                         </div>
                     </a>
+
                     <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                linux配置gitee仓库设置账号
+
+git config –global user.name “name”
+
+设置邮箱
+
+git config –global user.email “email”
+
+生成密钥
+
+ssh-keygen -
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-19
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-11
                             </span>
                             <span class="publish-author">
                                 
@@ -312,13 +298,98 @@
                             </span>
                         </div>
                     </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E8%B5%84%E6%BA%90/">
+                            <span class="chip bg-color">资源</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/02/11/reading/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="编程">
+                            
+                            <span class="card-title">编程</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                编程网址数据结构和算法
+cplusplus
+大炳课程
+语言入门学习大全
+Hexo主题hexo+github教程
+简洁Hexo主题
+ejs–嵌入式 JavaScript 模板引擎
+hexo部署到centos远程服务器
+其它Ubuntu常用软件
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-11
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                蜩与学鸠6
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E8%B5%84%E6%BA%90/">
+                            <span class="chip bg-color">资源</span>
+                        </a>
+                        
+                    </div>
+                    
                 </div>
             </div>
             
         </div>
     </article>
+
 </main>
 
+
+<div class="container paging">
+    <div class="row">
+        <div class="col s6 m4 l4">
+            
+            <a href="/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            
+        </div>
+        <div class="page-info col m4 l4 hide-on-small-only">
+            <div class="center-align b-text-gray">2 / 2</div>
+        </div>
+        <div class="col s6 m4 l4">
+            
+            <a class="right btn-floating btn-large disabled">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            
+        </div>
+    </div>
+</div>
 
 
 
