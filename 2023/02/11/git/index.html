@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="git, Time is power">
+    <meta name="keywords" content="代码仓库, Time is power">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>git | Time is power</title>
+    <title>代码仓库 | Time is power</title>
     <link rel="icon" type="image/png" href="/bird.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -173,12 +173,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">git</h1>
+                    <h1 class="description center-align post-title">代码仓库</h1>
                 </div>
             </div>
         </div>
@@ -225,7 +225,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2023-09-16
+                    2023-12-27
                 </div>
                 
 
@@ -247,7 +247,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="linux配置gitee仓库"><a href="#linux配置gitee仓库" class="headerlink" title="linux配置gitee仓库"></a>linux配置gitee仓库</h3><pre class="line-numbers language-none"><code class="language-none">设置账号
+                <h3 id="公钥"><a href="#公钥" class="headerlink" title="公钥"></a>公钥</h3><pre class="line-numbers language-none"><code class="language-none">设置账号
 
 git config –global user.name “name”
 
@@ -269,22 +269,11 @@ cat ~&#x2F;.ssh&#x2F;id_rsa.pub
 
 ssh -T git@gitee.com<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="源码阅读"><a href="#源码阅读" class="headerlink" title="源码阅读"></a>源码阅读</h3><p>你有个任务，需要用到某个开源项目;或者老大交代你一个事情，让你去了解某个东西。怎么下手呢？如何开始呢？我的习惯是这样：</p>
-<p>1.首先，查找和阅读该项目的博客和资料，通过google你能找到某个项目大体介绍的博客，快速阅读一下就能对项目的目的、功能、基本使用有个大概的了解。</p>
-<p>2.阅读项目的文档，重点关注类似Getting started、Example之类的文档，从中学习如何下载、安装、甚至基本使用该项目所需要的知识。</p>
-<p>3.如果该项目有提供现成的example工程，首先尝试按照开始文档的介绍运行example，如果运行顺利，那么恭喜你顺利开了个好头;如果遇到问题，首先尝试在项目的FAQ等文档里查找答案，再次，可以将问题（例如异常信息）当成关键词去搜索，查找相关的解决办法，你遇到了，别人一般也会遇到，热心的朋友会记录下解决的过程;最后，可以将问题提交到项目的邮件列表，请大家帮你看看。在没有成功运行example之前，不要尝试修改example。</p>
-<p>4.运行了第一个example之后，尝试根据你的理解和需要修改example，测试高级功能等。</p>
-<p>5.在了解基本使用后，需要开始深入的了解该项目。例如项目的配置管理、高级功能以及最佳实践。通常一个运作良好的项目会提供一份从浅到深的用户指南，你并不 需要从头到尾阅读这份指南，根据时间和兴趣，特别是你自己任务的需要，重点阅读部分章节并做笔记（推荐evernote）。</p>
-<p>6.如果时间允许，尝试从源码构建该项目。通常开源项目都会提供一份构建指南，指导你如何搭建一个用于开发、调试和构建的环境。尝试构建一个版本。</p>
-<p>7.如果时间允许并且有兴趣，可以尝试阅读源码：</p>
-<p>（1）阅读源码之前，查看该项目是否提供架构和设计文档，阅读这些文档可以了解该项目的大体设计和结构，读源码的时候不会无从下手。</p>
-<p>（2）阅读源码之前，一定要能构建并运行该项目，有个直观感受。</p>
-<p>（3）阅读源码的第一步是抓主干，尝试理清一次正常运行的代码调用路径，这可以通过debug来观察运行时的变量和行为。修改源码加入日志和打印可以帮助你更好的理解源码。</p>
-<p>（4）适当画图来帮助你理解源码，在理清主干后，可以将整个流程画成一张流程图或者标准的UML图，帮助记忆和下一步的阅读。</p>
-<p>（5）挑选感兴趣的“枝干”代码来阅读，比如你对网络通讯感兴趣，就阅读网络层</p>
-<h3 id="github-net"><a href="#github-net" class="headerlink" title="github net"></a>github net</h3><p>ping github.com timeout<br>github c:&gt;windows&gt;system32&gt;drivers&gt;etc</p>
+
+
+<h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h3><p>ping github.com timeout<br>github c:&gt;windows&gt;system32&gt;drivers&gt;etc</p>
 <p>192.30.255.112 github.com git<br>185.31.16.184 github.global.ssl.fastly.net</p>
-<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p><a target="_blank" rel="noopener" href="https://docs.github.com/en">github docs</a></p>
+<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><p><a target="_blank" rel="noopener" href="https://docs.github.com/en">github docs</a></p>
 <p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000023734704">三年git心得</a></p>
 
                 
@@ -340,13 +329,13 @@ ssh -T git@gitee.com<span aria-hidden="true" class="line-numbers-rows"><span></s
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2023/09/30/stduy/">
+                <a href="/2023/09/30/stduy/">featureimg
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="stduy">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="认识-理解-改变">
                         
-                        <span class="card-title">stduy</span>
+                        <span class="card-title">认识-理解-改变</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -389,7 +378,7 @@ ssh -T git@gitee.com<span aria-hidden="true" class="line-numbers-rows"><span></s
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="编程">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="编程">
                         
                         <span class="card-title">编程</span>
                     </div>
